@@ -1,0 +1,72 @@
+body{
+    
+    background-color:cadetblue;
+}
+header{
+    font-size: 5em;
+    background-color: rgb(183, 178, 189);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:rgb(32, 29, 26);
+}
+
+#pelaa{
+    color:forestgreen;
+    background-color: chartreuse;
+    border-color: darkgreen;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    margin-left: 100px;
+}
+#tieto{
+    margin-top: 20px;
+    background-color: rgb(205, 221, 188);
+    width: 635px;
+    margin-left: 20%;
+    color: blue;
+    font-size: 2em;
+    border-radius: 5px;
+    border-style:outset;
+}
+#raha{
+   margin: 5px;
+   padding-left: 20px;
+   
+}
+#panos{
+    margin: 5px;
+    padding-left: 20px;
+}
+
+
+#peli{
+    padding-top: 10px;
+    margin-left: 20%;
+    display: flex;
+}
+#box-1{
+    padding: 5px;}
+#box-2{
+    padding: 5px;}
+#box-3{
+    padding: 5px;}
+#box-4{
+   padding: 5px;
+}
+#luk1{
+    width: 150px;
+    height: 70px;
+    
+}
+#luk2{
+    width: 150px;
+    height: 70px;
+}#luk3{
+    width: 150px;
+    height: 70px;
+}#luk4{
+    width: 150px;
+    height: 70px;
+}
