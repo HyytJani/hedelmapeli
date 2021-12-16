@@ -112,31 +112,37 @@ function laskeVoitot(){
         rahaa=rahaa+panos*6;
         document.querySelector('#raha').innerHTML="RAHAA "+rahaa;
         document.querySelector('#voitto').innerHTML="VOITIT "+panos*6;
+        eiSaaLukita=true;
     }
     if(arpa1==1&&arpa2==1&&arpa3==1&&arpa4==1){
         rahaa=rahaa+panos*3;
         document.querySelector('#raha').innerHTML="RAHAA "+rahaa;
         document.querySelector('#voitto').innerHTML="VOITIT "+panos*3;
+        eiSaaLukita=true;
     }
     if(arpa1==2&&arpa2==2&&arpa3==2&&arpa4==2){
         rahaa=rahaa+panos*4;
         document.querySelector('#raha').innerHTML="RAHAA "+rahaa;
-        document.querySelector('#voitto').innerHTML="VOITIT "+panos*4;}
+        document.querySelector('#voitto').innerHTML="VOITIT "+panos*4;
+        eiSaaLukita=true;}
 
     if(arpa1==3&&arpa2==3&&arpa3==3&&arpa4==3){
         rahaa=rahaa+panos*5;
         document.querySelector('#raha').innerHTML="RAHAA "+rahaa;
         document.querySelector('#voitto').innerHTML="VOITIT "+panos*5;
+        eiSaaLukita=true;
     }
     if(arpa1==4&&arpa2==4&&arpa3==4&&arpa4==4){
         rahaa=rahaa+panos*10;
         document.querySelector('#raha').innerHTML="RAHAA "+rahaa;
         document.querySelector('#voitto').innerHTML="VOITIT "+panos*10;
+        eiSaaLukita=true;
     }
     if(arpa1==4&&arpa2==4&&arpa3==4&&arpa4<4||arpa1==4&&arpa2==4&&arpa3<4&&arpa4==4||arpa1==4&&arpa2<4&&arpa3==4&&arpa4==4||arpa1<4&&arpa2==4&&arpa3==4&&arpa4==4){
         rahaa=rahaa+panos*5;
         document.querySelector('#raha').innerHTML="RAHAA "+rahaa;
-        document.querySelector('#voitto').innerHTML="VOITIT "+panos*5;}
+        document.querySelector('#voitto').innerHTML="VOITIT "+panos*5;
+        eiSaaLukita=true;}
 
 
     }

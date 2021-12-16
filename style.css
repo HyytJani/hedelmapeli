@@ -1,6 +1,7 @@
 body{
     margin-left: 20%;
     background-color:cadetblue;
+    width: 850px;
 }
 header{
     width: 850px;
@@ -8,7 +9,7 @@ header{
     background-color: rgb(183, 178, 189);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color:rgb(32, 29, 26);
+    color:rgb(32, 29, 26);
 }
 
 #pelaa{
@@ -23,9 +24,10 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #tieto{
+    
     margin-top: 20px;
     background-color: rgb(205, 221, 188);
-    width: 210px;
+    width: 310px;
     height: 252px;     
     color: blue;
     font-size: 2em;
@@ -33,27 +35,22 @@ header{
     border-style:outset;
 }
 #raha{
-   padding-top: 15px;
-   margin: 5px;
-   padding-left: 20px;
+    padding-top: 15px;
+    margin: 5px;
+    padding-left: 20px;
    
 }
 #panos{
     margin: 5px;
-     padding-left: 20px;
+    padding-left: 20px;
     margin-bottom: 20px;
 }
 
 
-#peli{
-   
-    
-    display: flex;
-}
 #box-1{
-padding: 5px;    
-text-align: center;
-color: red;}
+    padding: 5px;    
+    text-align: center;
+    color: red;}
 #box-2{
     padding: 5px;
     text-align: center;
@@ -65,68 +62,134 @@ color: red;}
 #box-4{
     padding: 5px;
     padding-right: 10px;
-   text-align: center;
-   color: red;
+    text-align: center;
+    color: red;
 }
 #luk1{
-    width: 150px;
+    width: 100%;
     height: 70px;
     background-color: darkgoldenrod;
 }
 #luk2{
-    width: 150px;
+    width: 100%;
     height: 70px;
     background-color: darkgoldenrod;
 }#luk3{
-    width: 150px;
+    width: 100%;
     height: 70px;
     background-color: darkgoldenrod;
 }#luk4{
-    width: 150px;
+    width: 100%;
     height: 70px;
     background-color: darkgoldenrod;
 }
 #miinus{
-    margin-left: 23px;    
-    
+    margin-left: 23px; 
     background-color:orangered;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
-#plus{
-    
+#plus{    
     background-color:orangered;
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
 .flex-container{
-    display: flex;
-    height: 260px;
+    display:flex;
+    height: 300px;
+    width: 850px;
+    background-color: blue;
 }
 table{
+    width: 100%;
     background-color: white;
     font-size: 1.5em;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border-color: blue;
     border-style: outset;
     margin-left: 5px;
-    padding: 5px;
+    
 }
 #voitto{
+    width: 850px;
     margin-top: 30px;
     padding-top: 5px;
     color: darkorange;
     background-color: darkred;
-    width: 845px;
+    
     text-align: center;
-    height: 40px;
+  
     border-radius: 5px;
     border-style: outset;
 }
 
+#peli{
+    display: flex;
+    width: 850px;
+    background-color: brown;
+}
+table img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+@media only screen and (max-width:850px){
+    body{margin-left: 0px;
+        width: 100%;      
+    }
+    .flex-container{
+        display:contents;
+        max-width: 100%;
+     
+    }
+    #tieto{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    table{
+        width:100%;
+    }
+    #voitto{
+        width: 100%;
+    }
+    #peli{
+        display:flex; 
+        width: 100%;    
+     
+    }
+    .responsive {
+        width: 100%;
+       }
+    #luk1,#luk2,#luk3,#luk4{
+        height: auto;
+    }
+    #pelaa{
+        width:20%;
+        font-size: 1em;
+        height: auto;
+    }
+   
+
+    
+ 
     
 
+}  
+@media only screen and (max-width:1065px){
+    body{margin-left: 0px;
+        width: 100%;      
+    }     
+    
+
+    
+
+}
